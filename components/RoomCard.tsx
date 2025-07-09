@@ -15,10 +15,11 @@ export default function RoomCard({ title, description, image }: RoomCardProps) {
   </div>
 
   {/* Metinler */}
-  <div className="p-4">
-    <h3 className="text-xl font-semibold mb-2 text-gray-800">{title}</h3>
-    <p className="text-sm text-gray-600">{description}</p>
-  </div>
+  <div className="p-4 md:p-6">
+  <h3 className="text-lg md:text-xl font-semibold mb-2 text-gray-800">{title}</h3>
+  <p className="text-sm md:text-base text-gray-600">{description}</p>
+</div>
+
 </div>
 
   );
