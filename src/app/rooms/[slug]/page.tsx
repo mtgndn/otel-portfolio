@@ -24,11 +24,11 @@ export default function RoomDetail({ params }: Props) {
         />
       </div>
 
-      <h1 className="text-3xl font-bold mb-4 text-gray-800">{room.title}</h1>
-      <p className="text-gray-700 mb-6 leading-relaxed">{room.description}</p>
+      <h1 className="text-white text-3xl font-bold mb-4 text-gray-800">{room.title}</h1>
+      <p className="text-white mb-6 leading-relaxed">{room.description}</p>
 
-      <h2 className="text-xl font-semibold mb-2 text-gray-700">Özellikler</h2>
-      <ul className="list-disc list-inside text-gray-600 mb-10 space-y-1">
+      <h2 className="text-white text-xl font-semibold mb-2 text-gray-700">Özellikler</h2>
+      <ul className="text-white list-disc list-inside text-gray-600 mb-10 space-y-1">
         {room.features.map((feature, idx) => (
           <li key={idx}>{feature}</li>
         ))}
